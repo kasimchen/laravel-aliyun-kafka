@@ -1,0 +1,23 @@
+{
+    "name": "onemena/laravel-aliyun-kafka",
+    "description": "aliyun kafka for laravel5, based on php-rdkafka",
+    "keywords": ["laravel kafka", "laravel aliyun kafka", "aliyun laravel kafka"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "~5.4|~5.5",
+        "illuminate/queue": "~5.4|~5.5"
+    },
+    "authors": [
+        {
+            "name": "kasimchen",
+            "email": "chenhuan@liaosearch.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaravelAliYunKafka\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
