@@ -6,6 +6,9 @@ return [
 
     'sasl'=>env('KAFKA_SASL',true),
 
+    'security.protocol'=>env('KAFKA_SECURITY_PROTOCOL','SASL_SSL'),
+
+
     // your appkey
     'sasl_plain_username' => env('KAFKA_SASL_PLAIN_USERNAME', 'aliyun_user_name'),
 

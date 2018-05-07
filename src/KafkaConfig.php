@@ -13,13 +13,13 @@ class KafkaConfig
         $conf = new Conf();
 
         if (isset($config['sasl'])&&$config['sasl']==true) {
-            $conf->set('security.protocol', 'SASL_SSL');
             $conf->set('sasl.mechanisms', 'PLAIN');
             $conf->set('sasl.username', $config['sasl_plain_username']);
             $conf->set('sasl.password', $config['sasl_plain_password']);
             $conf->set('ssl.ca.location', $config['ssl.ca.location']);
         }
 
+        $conf->set('security.protocol', $config['security.protocol']);
         $conf->set('api.version.request', 'true');
         $conf->set('message.send.max.retries', $config['message.send.max.retries']);
         $conf->set('group.id', $config['consumer_id']);
