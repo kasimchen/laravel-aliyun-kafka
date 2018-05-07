@@ -145,8 +145,12 @@ class KafkaQueue extends Queue implements QueueContract
         $message = $this->consumer->consume($queue);
         if ($message) {
             $payload = json_decode($message->payload, true);
-            $payload['attempts']++;
-            $this->randomId = $payload['id'];
+
+            if(isset($payload['attempts'])&&isset($payload['id'])){
+                $payload['attempts']++;
+                $this->randomId = $payload['id'];
+            }
+
             $message->payload = json_encode($payload);
         }
         return $message ?? null;
