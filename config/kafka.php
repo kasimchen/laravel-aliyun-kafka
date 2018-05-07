@@ -4,6 +4,8 @@ return [
 
     'driver' => 'kafka',
 
+    'sasl'=>env('KAFKA_SASL',true),
+
     // your appkey
     'sasl_plain_username' => env('KAFKA_SASL_PLAIN_USERNAME', 'aliyun_user_name'),
 

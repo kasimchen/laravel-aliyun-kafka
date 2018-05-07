@@ -5,8 +5,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.0",
-        "illuminate/support": "~5.4|~5.5",
-        "illuminate/queue": "~5.4|~5.5"
+        "illuminate/support": "~5.3|~5.4|~5.5",
+        "illuminate/queue": "~5.3|~5.4|~5.5"
     },
     "authors": [
         {
