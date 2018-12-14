@@ -1,5 +1,5 @@
 <?php
-namespace LaravelAliYunKafka;
+namespace Sjje\LaravelAliYunKafka;
 use RdKafka\TopicConf;
 use RdKafka\KafkaConsumer as Consumer;
 

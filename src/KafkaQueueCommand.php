@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelAliYunKafka;
+namespace Sjje\LaravelAliYunKafka;
 
 use Illuminate\Console\Command;
 

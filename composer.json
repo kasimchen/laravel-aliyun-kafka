@@ -1,5 +1,5 @@
 {
-    "name": "onemena/laravel-aliyun-kafka",
+    "name": "sjje/laravel-aliyun-kafka",
     "description": "aliyun kafka for laravel5, based on php-rdkafka",
     "keywords": ["laravel kafka", "laravel aliyun kafka", "aliyun laravel kafka"],
     "license": "MIT",
@@ -10,21 +10,20 @@
     },
     "authors": [
         {
-            "name": "kasimchen",
-            "email": "chenhuan@liaosearch.com"
+            "name": "sjje",
+            "email": "377304925@qq.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "LaravelAliYunKafka\\": "src/"
+            "Sjje\\LaravelAliYunKafka\\": "src/"
         }
     },
     "extra": {
         "laravel":{
             "providers": [
-                "LaravelAliYunKafka\\LaravelKafkaServiceProvider"
+                "Sjje\\LaravelAliYunKafka\\LaravelKafkaServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
