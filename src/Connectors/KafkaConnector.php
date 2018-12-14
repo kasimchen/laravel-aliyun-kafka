@@ -1,9 +1,9 @@
 <?php
-namespace Sjje\LaravelAliYunKafka\Connectors;
+namespace Sjje\LaravelKafka\Connectors;
 
-use Sjje\LaravelAliYunKafka\KafkaConsumer;
-use Sjje\LaravelAliYunKafka\KafKaProducer;
-use Sjje\LaravelAliYunKafka\KafkaQueue;
+use Sjje\LaravelKafka\KafkaConsumer;
+use Sjje\LaravelKafka\KafKaProducer;
+use Sjje\LaravelKafka\KafkaQueue;
 use Illuminate\Queue\Connectors\ConnectorInterface;
 
 class KafkaConnector implements ConnectorInterface

@@ -1,5 +1,5 @@
 <?php
-namespace Sjje\LaravelAliYunKafka\Exception;
+namespace Sjje\LaravelKafka\Exception;
 
 use RuntimeException;
 

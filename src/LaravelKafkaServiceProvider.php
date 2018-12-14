@@ -1,9 +1,9 @@
 <?php
 
-namespace Sjje\LaravelAliYunKafka;
+namespace Sjje\LaravelKafka;
 
 use Illuminate\Support\ServiceProvider;
-use Sjje\LaravelAliYunKafka\Connectors\KafkaConnector;
+use Sjje\LaravelKafka\Connectors\KafkaConnector;
 use Illuminate\Support\Facades\Queue;
 class LaravelKafkaServiceProvider extends ServiceProvider
 {

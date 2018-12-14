@@ -1,11 +1,11 @@
 <?php
-namespace Sjje\LaravelAliYunKafka;
+namespace Sjje\LaravelKafka;
 
-use Sjje\LaravelAliYunKafka\Jobs\KafkaJob;
+use Sjje\LaravelKafka\Jobs\KafkaJob;
 use Illuminate\Contracts\Queue\Queue as QueueContract;
 use Illuminate\Queue\Queue;
-use Sjje\LaravelAliYunKafka\KafkaConsumer;
-use Sjje\LaravelAliYunKafka\KafKaProducer;
+use Sjje\LaravelKafka\KafkaConsumer;
+use Sjje\LaravelKafka\KafKaProducer;
 use Illuminate\Support\Str;
 use Illuminate\Foundation\Application;
 class KafkaQueue extends Queue implements QueueContract
@@ -195,7 +195,7 @@ class KafkaQueue extends Queue implements QueueContract
     }
 
     /**
-     * @return \Sjje\LaravelAliYunKafka\KafkaConsumer
+     * @return \Sjje\LaravelKafka\KafkaConsumer
      */
     public function getConsumer()
     {

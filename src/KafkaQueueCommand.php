@@ -1,6 +1,6 @@
 <?php
 
-namespace Sjje\LaravelAliYunKafka;
+namespace Sjje\LaravelKafka;
 
 use Illuminate\Console\Command;
 
