@@ -19,5 +19,12 @@
             "LaravelAliYunKafka\\": "src/"
         }
     },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "LaravelAliYunKafka\\LaravelKafkaServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
