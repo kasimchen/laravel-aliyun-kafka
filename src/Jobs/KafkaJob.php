@@ -1,6 +1,6 @@
 <?php
-namespace LaravelAliYunKafka\Jobs;
-use LaravelAliYunKafka\KafkaQueue;
+namespace Sjje\LaravelKafka\Jobs;
+use Sjje\LaravelKafka\KafkaQueue;
 use Illuminate\Container\Container;
 use Illuminate\Queue\Jobs\Job;
 use Illuminate\Contracts\Queue\Job as JobContract;

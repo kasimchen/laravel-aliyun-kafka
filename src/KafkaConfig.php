@@ -1,5 +1,5 @@
 <?php
-namespace LaravelAliYunKafka;
+namespace Sjje\LaravelKafka;
 use RdKafka\Conf;
 
 class KafkaConfig

@@ -1,6 +1,6 @@
 <?php
-namespace LaravelAliYunKafka;
-use LaravelAliYunKafka\Exception\KafkaMaxPollException;
+namespace Sjje\LaravelKafka;
+use Sjje\LaravelKafka\Exception\KafkaMaxPollException;
 use RdKafka\Producer;
 class KafKaProducer
 {
