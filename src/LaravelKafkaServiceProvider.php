@@ -5,6 +5,7 @@ namespace Sjje\LaravelKafka;
 use Illuminate\Support\ServiceProvider;
 use Sjje\LaravelKafka\Connectors\KafkaConnector;
 use Illuminate\Support\Facades\Queue;
+
 class LaravelKafkaServiceProvider extends ServiceProvider
 {
     /**
@@ -14,6 +15,7 @@ class LaravelKafkaServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
         Queue::extend('kafka', function (){
             return new KafkaConnector;
         });

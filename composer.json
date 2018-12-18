@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Sjje\\LaravelKafka\\": "src/"
+            "Sjje\\LaravelKafka\\": "src"
         }
     },
     "minimum-stability": "stable",
